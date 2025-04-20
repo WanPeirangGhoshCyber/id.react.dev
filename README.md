@@ -1,63 +1,62 @@
 # id.react.dev
 
-This repo contains the source code and documentation powering [react.dev](https://react.dev/).
+Repo ini berisi kode sumber dan dokumentasi yang mendukung [react.dev](https://react.dev/).
 
-## Getting started
+ ## Memulai
 
-### Prerequisites
+### Prasyarat
 
 1. Git
-1. Node: any 12.x version starting with v12.0.0 or greater
-1. Yarn: See [Yarn website for installation instructions](https://yarnpkg.com/lang/en/docs/install/)
-1. A fork of the repo (for any contributions)
-1. A clone of the [id.react.dev repo](https://github.com/reactjs/id.react.dev) on your local machine
+1. Node: versi 12.x apa pun yang dimulai dengan v12.0.0 atau yang lebih baru
+1. Yarn: Lihat [situs web Yarn untuk petunjuk instalasi](https://yarnpkg.com/lang/en/docs/install/)
+1. Fork repo (untuk kontribusi apa pun)
+1. Kloning [repo id.react.dev](https://github.com/reactjs/id.react.dev) di komputer lokal Anda
 
-### Installation
+### Instalasi
 
-1. `cd id.react.dev` to go into the project root
-3. `yarn` to install the website's npm dependencies
+1. `cd id.react.dev` untuk masuk ke root proyek
+3. `yarn` untuk menginstal dependensi npm situs web
 
-### Running locally
+### Berjalan secara lokal
 
-1. `yarn dev` to start the development server (powered by [Next.js](https://nextjs.org/))
-1. `open http://localhost:3000` to open the site in your favorite browser
+1. `yarn dev` untuk memulai server pengembangan (didukung oleh [Next.js](https://nextjs.org/))
+1. `buka http://localhost:3000` untuk membuka situs  di peramban favorit Anda
 
-## Contributing
+## Kontribusi
 
-### Guidelines
+### Pedoman
 
-The documentation is divided into several sections with a different tone and purpose. If you plan to write more than a few sentences, you might find it helpful to get familiar with the [contributing guidelines](https://github.com/reactjs/react.dev/blob/main/CONTRIBUTING.md#guidelines-for-text) for the appropriate sections.
+Dokumentasi dibagi menjadi beberapa bagian dengan nada dan tujuan yang berbeda. Jika Anda berencana untuk menulis lebih dari beberapa kalimat, mungkin akan membantu jika Anda memahami [pedoman kontribusi](https://github.com/reactjs/react.dev/blob/main/CONTRIBUTING.md#guidelines-for-text) untuk bagian yang sesuai.
 
-### Create a branch
+ ### Buat cabang
 
-1. `git checkout main` from any folder in your local `react.dev` repository
-1. `git pull origin main` to ensure you have the latest main code
-1. `git checkout -b the-name-of-my-branch` (replacing `the-name-of-my-branch` with a suitable name) to create a branch
+1. `git checkout main` dari folder mana pun di repositori `react.dev` lokal Anda
+1. `git pull origin main` untuk memastikan Anda memiliki kode utama terbaru
+1. `git checkout -b the-name-of-my-branch` (ganti `the-name-of-my-branch` dengan nama yang sesuai) untuk membuat cabang
 
-### Make the change
+### Lakukan perubahan
 
-1. Follow the ["Running locally"](#running-locally) instructions
-1. Save the files and check in the browser
-  1. Changes to React components in `src` will hot-reload
-  1. Changes to markdown files in `content` will hot-reload
-  1. If working with plugins, you may need to remove the `.cache` directory and restart the server
+1. Ikuti petunjuk ["Menjalankan secara lokal"](#running-locally)
+1. Simpan file dan periksa di browser
+1. Perubahan pada komponen React di `src` akan dimuat ulang secara otomatis
+1. Perubahan pada file markdown di `content` akan dimuat ulang secara otomatis
+1. Jika bekerja dengan plugin, Anda mungkin perlu menghapus direktori `.cache` dan memulai ulang server
 
-### Test the change
+### Uji perubahan
 
-1. If possible, test any visual changes in all latest versions of common browsers, on both desktop and mobile.
-2. Run `yarn check-all`. (This will run Prettier, ESLint and validate types.)
+1. Jika memungkinkan, uji perubahan visual apa pun di semua versi terbaru browser umum, baik di desktop maupun seluler.  2. Jalankan `yarn check-all`. (Ini akan menjalankan Prettier, ESLint, dan memvalidasi tipe.)
 
-### Push it
+### Dorong
 
-1. `git add -A && git commit -m "My message"` (replacing `My message` with a commit message, such as `Fix header logo on Android`) to stage and commit your changes
+1. `git add -A && git commit -m "Pesan saya"` (mengganti `Pesan saya` dengan pesan komit, seperti `Perbaiki logo header di Android`) untuk menyiapkan dan melakukan komit perubahan Anda
 1. `git push my-fork-name the-name-of-my-branch`
-1. Go to the [id.react.dev repo](https://github.com/reactjs/id.react.dev) and you should see recently pushed branches.
-1. Follow GitHub's instructions.
-1. If possible, include screenshots of visual changes. A preview build is triggered after your changes are pushed to GitHub.
+1. Buka [repo id.react.dev](https://github.com/reactjs/id.react.dev) dan Anda akan melihat cabang yang baru saja didorong.
+1. Ikuti petunjuk GitHub.
+1. Jika memungkinkan, sertakan tangkapan layar perubahan visual. Pratinjau build dipicu setelah perubahan Anda didorong ke GitHub.
 
-## Translation
+ ## Terjemahan
 
-If you are interested in translating `react.dev`, please see the current translation efforts [here](https://github.com/reactjs/react.dev/issues/4135).
+Jika Anda tertarik menerjemahkan `react.dev`, silakan lihat upaya penerjemahan terkini [di sini](https://github.com/reactjs/react.dev/issues/4135).
 
-## License
-Content submitted to [react.dev](https://react.dev/) is CC-BY-4.0 licensed, as found in the [LICENSE-DOCS.md](https://github.com/reactjs/react.dev/blob/main/LICENSE-DOCS.md) file.
+## Lisensi
+Konten yang dikirimkan ke [react.dev](https://react.dev/) berlisensi CC-BY-4.0, sebagaimana ditemukan dalam berkas [LICENSE-DOCS.md](https://github.com/reactjs/react.dev/blob/main/LICENSE-DOCS.md).
